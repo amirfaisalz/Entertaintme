@@ -1,0 +1,153 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #f3f7f9;
+}
+.navbar {
+  background: lightseagreen;
+  padding: 3vh 4vw;
+  display: flex;
+  justify-content: center;
+}
+.link {
+  text-align: center;
+  margin-right: 2vw;
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: yellow;
+  margin-top: -2px;
+}
+.container {
+  padding: 2vh 2vw;
+}
+
+.addGroup {
+  display: flex;
+  justify-content: space-between;
+}
+.addBtn {
+  background: lightseagreen;
+  border: none;
+  color: white;
+  height: 5vh;
+  width: 8vw;
+  cursor: pointer;
+  margin-right: 1vw;
+}
+.addBtn:hover {
+  background: rgb(22, 141, 135);
+}
+.addBtn:focus {
+  outline: none;
+}
+.cardGroup {
+  display: grid;
+  grid-template-columns: repeat(4, 20vw [col-start]);
+  grid-column-gap: 5vw;
+  margin-bottom: 5vh;
+}
+.card h3 {
+  margin-top: 4vh;
+}
+.card img {
+  width: 20vw;
+  border-radius: 20px;
+  margin-top: 2vh;
+}
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vh;
+}
+.buttonGroup button {
+  cursor: pointer;
+  border: 1px solid white;
+  background: lightseagreen;
+  color: white;
+  height: 4vh;
+  width: 7vw;
+  font-size: 12px;
+}
+.buttonGroup button:hover {
+  background: rgb(22, 141, 135);
+}
+.buttonGroup button:focus {
+  border: none;
+  outline: none;
+}
+
+/* detail page */
+.detail {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5vh 0;
+}
+.poster img {
+  width: 24vw;
+}
+.data {
+  margin-left: 4vw;
+}
+.data h1 {
+  text-align: left;
+  font-size: 40px;
+  width: 60vw;
+}
+.data h3 {
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 4vh;
+}
+.genre {
+  display: flex;
+  margin-top: -3vh;
+}
+h3 {
+  margin-right: 20px;
+}
+.overview {
+  text-align: left;
+  margin-top: 32px;
+}
+.overTitle {
+  font-size: 22px;
+}
+.overParag {
+  margin-top: 16px;
+  font-weight: normal;
+  line-height: 1.6;
+  width: 57vw;
+}
+
+/* Edit Page */
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+.inputGroup input {
+  margin-top: 2vh;
+  padding: 1vh 1vw;
+}
+.editBtn {
+  background: lightseagreen;
+  border: none;
+  padding: 1vh 3vw;
+  margin-top: 2vh;
+  color: white;
+  cursor: pointer;
+}
+.editBtn:hover {
+  background: rgb(22, 141, 135);
+}
+.editBtn:focus {
+  outline: none;
+}
